@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+
+}
+
+.nav-bar {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0px 64px;
+
+
+}
+
+/* box 01 */
+
+.nav-logo {
+    width: 140px;
+    height: 28px;
+    background-image: url(foodpanda_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: ;
+
+}
+
+/* box 02 */
+
+.nav-user {
+    color: #39434d;
+    background-color: white;
+    width: 100px;
+    height: 32px;
+    margin-left: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1rem;
+
+}
+
+.user-icon {
+    margin-top: 2px;
+}
+
+.user {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-top: 2pxd;
+}
+
+.opt-user {
+    border: none;
+    background-color: transparent;
+}
+
+.nav-user:hover {
+    background-color: #e5e8ec;
+}
+
+/* box 03 */
+
+.nav-lang {
+    color: #39434d;
+    background-color: white;
+    width: 140px;
+    height: 32px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.lang-icon {
+    margin: 5px 3px;
+    padding-top: 2px;
+}
+
+.lang {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.opt-lang {
+    border: none;
+    background-color: transparent;
+}
+
+.nav-lang:hover {
+    background-color: #e5e8ec;
+}
+
+/* box 04 */
+
+.nav-cart {
+    color: #39434d;
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    margin-left: 25px;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.nav-cart:hover {
+    background-color: #e5e8ec;
+    border-radius: 50%;
+}
+
+/* navigation bar end */
+
+/* hero 01 */
+
+.hero-1 {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    background-color: #eef3f2;
+}
+
+.container-first {
+    width: 57%;
+}
+
+.hero-msg {
+    font-size: 1.5rem;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+.hero-msg h1 {
+    width: 730px;
+}
+
+.hero-search {
+    height: 305px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-all {
+    color: black;
+    background-color: #ffffff;
+    width: 730px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-all input {
+    width: 455px;
+    height: 48px;
+    padding-left: 12px;
+    margin-left: 16px;
+    border: .5px solid #dbe1e0;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 0.9rem;
+    
+
+}
+
+.search-icon {
+    height: 48px;
+    font-size: 1.2rem;
+    color: #e21b70;
+    border: .5px solid #dbe1e0;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-location p {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    border: .5px solid #dbe1e0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+    padding-right: 12px;
+    font-size: 1.1rem;
+}
+
+.search-find {
+    color: #ffffff;
+    background-color: #e21b70;
+    width: 96px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    font-size: 1.1rem;
+
+}
+
+.container-sec {
+    width: 43%;
+    height: 100%;
+    background-image: url(hero-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.availavle-msg {
+    font-size: 1.3rem;
+    padding: 0px 100px;
+    margin: 90px 0px 40px 0px;
+}
+
+.city {
+    height: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 100px;
+    
+}
+
+.box {
+    color: #000000;
+    width: 21%;
+    height: 252px;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    background-image: url(image_dhaka.jpg);
+    background-size: 450px 252px;
+    background-position: -70px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+
+.box:hover {
+    
+}
+
+.box div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.ad-msg {
+    color: #333333;
+    padding:0px 100px;
+    margin: 100px 0px;
+    font-family: arial;
+}
+
+.ad-msg-heading {
+    font-weight: bold;
+    font-size: 1.3rem;
+    opacity: 0.9;
+}
+
+.ad-msg-content {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 20px;
+    opacity: 0.5;
+}
+
+/* Footer */
+
+/* box1 */
+
+.foot-box1 {
+    margin: 0px 100px;
+    display: flex;
+    text-align: center;
+    border: .5px solid #dbe1e0;
+    border-left: none;
+    border-right: none;
+}
+
+.foot-region {
+    padding: 32px 0px;
+}
+
+.foot-region a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: arial;
+    padding: 15px;
+    opacity: 0.9;
+    height: 12px;
+    border: 2px solid #dbe1e0;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+
+.foot-region a:hover {
+    text-decoration: underline;
+
+}
+
+#reg-first {
+    padding-left: none;
+    border-left: none;
+}
+
+/* foot box-2 */
+
+.foot-box2 {
+    height: 400px;
+    margin: 0px 100px;
+    padding: 30px 0px;
+    display: flex;
+    border: 0.5px solid #dbe1e0;
+    opacity: 0.9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.foot-box2-b {
+    width: 25%;
+    height: 380px ;
+    display: flex;
+    font-size: 1.1rem;
+
+}
+
+.foot-box2-b ul p {
+    line-height: 40px;
+}
+
+.foot-box2-b ul p a {
+    color: #000000;
+    opacity: 0.9;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 1.1rem;
+}
+
+.foot-box2-b ul p a:hover {
+    text-decoration: underline;
+}
+
+/* foot box 03 */
+
+.foot-box3 {
+    margin: 0px 100px;
+    
+
+}
+
+.box3-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    height: 80px;
+}
+
+.box3-logo1 {
+    width: 135px;
+    height: 30px;
+    background-image: url(foodpanda_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.box3-logo2 {
+    width: 135px;
+    height: 50px;
+    background-image: url(deliveryhero_logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
