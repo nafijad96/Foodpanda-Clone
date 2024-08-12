@@ -6,12 +6,15 @@
 }
 
 .nav-bar {
+    width: 100%;
     height: 64px;
     display: flex;
     align-items: center;
-    padding: 0px 64px;
-
-
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: ;
 }
 
 /* box 01 */
@@ -22,8 +25,8 @@
     background-image: url(foodpanda_logo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    left: ;
-
+    margin-right: auto;
+    margin-left: 8%;
 }
 
 /* box 02 */
@@ -33,7 +36,6 @@
     background-color: white;
     width: 100px;
     height: 32px;
-    margin-left: 1100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -50,7 +52,7 @@
     font-size: 0.9rem;
     text-transform: capitalize;
     font-weight: 500;
-    padding-top: 2pxd;
+    padding-top: 2px;
 }
 
 .opt-user {
@@ -102,10 +104,11 @@
 
 .nav-cart {
     color: #39434d;
-    background-color: white;
+    background-color: transparent;
     width: 45px;
     height: 45px;
     margin-left: 25px;
+    margin-right: 9%;
     padding: 0px 0px;
     display: flex;
     justify-content: space-evenly;
@@ -128,10 +131,11 @@
     width: 100%;
     display: flex;
     background-color: #eef3f2;
+    padding: 0 8%;
 }
 
 .container-first {
-    width: 57%;
+    width: 50%;
     z-index: 1;
 }
 
@@ -139,7 +143,6 @@
     font-size: 1.5rem;
     height: 255px;
     display: flex;
-    justify-content: center;
     align-items: end;
     margin-bottom: 50px;
 }
@@ -151,7 +154,6 @@
 .hero-search {
     height: 305px;
     display: flex;
-    justify-content: center;
 }
 
 .search-all {
@@ -161,7 +163,6 @@
     height: 80px;
     border-radius: 10px;
     display: flex;
-    justify-content: ;
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -224,7 +225,7 @@
 }
 
 .container-sec {
-    width: 43%;
+    width: 50%;
     height: 100%;
     background-image: url(hero-1.jpg);
     background-size: cover;
@@ -235,6 +236,7 @@
     font-size: 1.3rem;
     padding: 0px 100px;
     margin: 90px 0px 40px 0px;
+    padding: 0 8%;
 }
 
 .container {
@@ -243,7 +245,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 0 100px;
+    padding: 0 8%;
 }
 
 .add {
@@ -273,7 +275,7 @@
     background-color: #ffffff;
     border-radius: 10px;
     padding: 10px 15px;
-    z-index: 100;
+    z-index: 1;
     bottom: 20px;
     position: relative;
     bottom: 55px;
@@ -292,7 +294,7 @@
 
 .ad-msg {
     color: #333333;
-    padding:0px 100px;
+    padding:0px 8%;
     margin: 100px 0px;
     font-family: arial;
 }
@@ -316,7 +318,7 @@
 /* box1 */
 
 .foot-box1 {
-    margin: 0px 100px;
+    margin: 0 8%;
     display: flex;
     text-align: center;
     border: .5px solid #dbe1e0;
@@ -357,8 +359,7 @@
 
 .foot-box2 {
     height: 400px;
-    margin: 0px 100px;
-    padding: 30px 0px;
+    margin: 30px 8%;
     display: flex;
     border: 0.5px solid #dbe1e0;
     opacity: 0.9;
@@ -395,9 +396,7 @@
 /* foot box 03 */
 
 .foot-box3 {
-    margin: 0px 100px;
-    
-
+    padding:0 8%;
 }
 
 .box3-logo {
