@@ -252,7 +252,7 @@
     height: 252px;
     border-radius: 20px;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin: 0px 20px 30px 0px;
 }
 
 .add img {
